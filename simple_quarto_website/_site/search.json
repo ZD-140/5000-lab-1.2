@@ -54,33 +54,5 @@
     "title": "My Presentation",
     "section": "",
     "text": "Code\n## Fourth\n\nfrom matplotlib import pyplot as plt\nimport random\n\npoints_count = 10\ncolor = \"blue\"\nx = [random.gauss(0, 1) for _ in range(points_count)]\ny = [random.gauss(0, 1) for _ in range(points_count)]\n\nplt.figure(figsize=(10, 7))\nscatter_plot = plt.plot(x, y, '.', markersize=14, color=color)\n\n\n\n\n\n\n\n\n\n\n\nZheng, Zibin, Shaoan Xie, Hong-Ning Dai, Xiangping Chen, and Huaimin Wang. 2018. “Blockchain Challenges and Opportunities: A Survey.” International Journal of Web and Grid Services 14 (4): 352–75."
-  },
-  {
-    "objectID": "slides/slides.html#fourth",
-    "href": "slides/slides.html#fourth",
-    "title": "My Presentation",
-    "section": "Fourth",
-    "text": "Fourth\nfrom matplotlib import pyplot as plt import random\npoints_count = 10 color = “blue” x = [random.gauss(0, 1) for _ in range(points_count)] y = [random.gauss(0, 1) for _ in range(points_count)]\nplt.figure(figsize=(10, 7)) scatter_plot = plt.plot(x, y, ‘.’, markersize=14, color=color)\n\n\n\n\n\n\nZheng, Zibin, Shaoan Xie, Hong-Ning Dai, Xiangping Chen, and Huaimin Wang. 2018. “Blockchain Challenges and Opportunities: A Survey.” International Journal of Web and Grid Services 14 (4): 352–75."
-  },
-  {
-    "objectID": "slides/slides.html#fourt",
-    "href": "slides/slides.html#fourt",
-    "title": "My Presentation",
-    "section": "Fourt",
-    "text": "Fourt\n```python cell_type: python\n```python from matplotlib import pyplot as plt import random\npoints_count = 10 color = “blue” x = [random.gauss(0, 1) for _ in range(points_count)] y = [random.gauss(0, 1) for _ in range(points_count)]\nplt.figure(figsize=(10, 7)) scatter_plot = plt.plot(x, y, ‘.’, markersize=14, color=color)\n\n\n\n\n\n\nZheng, Zibin, Shaoan Xie, Hong-Ning Dai, Xiangping Chen, and Huaimin Wang. 2018. “Blockchain Challenges and Opportunities: A Survey.” International Journal of Web and Grid Services 14 (4): 352–75."
-  },
-  {
-    "objectID": "slides/slides.html#section",
-    "href": "slides/slides.html#section",
-    "title": "My Presentation",
-    "section": "",
-    "text": "print(“Hello, World!”) ```python cell_type: python\n```python from matplotlib import pyplot as plt import random\npoints_count = 10 color = “blue” x = [random.gauss(0, 1) for _ in range(points_count)] y = [random.gauss(0, 1) for _ in range(points_count)]\nplt.figure(figsize=(10, 7)) scatter_plot = plt.plot(x, y, ‘.’, markersize=14, color=color)"
-  },
-  {
-    "objectID": "slides/slides.html#code",
-    "href": "slides/slides.html#code",
-    "title": "My Presentation",
-    "section": "Code",
-    "text": "Code\n```{python, echo=FALSE} execute: true from matplotlib import pyplot as plt import random\npoints_count = 10 color = “blue” x = [random.gauss(0, 1) for _ in range(points_count)] y = [random.gauss(0, 1) for _ in range(points_count)]\nplt.figure(figsize=(10, 7)) scatter_plot = plt.plot(x, y, ‘.’, markersize=14, color=color)"
   }
 ]
