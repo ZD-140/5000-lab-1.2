@@ -4,7 +4,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site"
+    "text": "This section includes some explanations and a random graph.\n\n\nThere will be a small graph.\n\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# random data\nx = np.linspace(0, 10, 100)\ny = x + np.random.randn(100) \n\n# Create plot\nplt.figure(figsize=(10,6))\nplt.plot(x, y, '-r', label='Random Data')\nplt.title('Random Data Plot')\nplt.xlabel('x', color='#1C2833')\nplt.ylabel('y', color='#1C2833')\nplt.legend(loc='upper left')\nplt.grid()\nplt.show()"
+  },
+  {
+    "objectID": "about.html#subsection-a.1-description",
+    "href": "about.html#subsection-a.1-description",
+    "title": "About",
+    "section": "",
+    "text": "There will be a small graph.\n\n\n\nimport matplotlib.pyplot as plt\nimport numpy as np\n\n# random data\nx = np.linspace(0, 10, 100)\ny = x + np.random.randn(100) \n\n# Create plot\nplt.figure(figsize=(10,6))\nplt.plot(x, y, '-r', label='Random Data')\nplt.title('Random Data Plot')\nplt.xlabel('x', color='#1C2833')\nplt.ylabel('y', color='#1C2833')\nplt.legend(loc='upper left')\nplt.grid()\nplt.show()"
   },
   {
     "objectID": "index.html",
