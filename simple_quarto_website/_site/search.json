@@ -60,6 +60,6 @@
     "href": "slides/slides.html#references",
     "title": "My Presentation",
     "section": "",
-    "text": "Code\n## Fourth\n\nfrom matplotlib import pyplot as plt\nimport random\n\npoints_count = 10\ncolor = \"blue\"\nx = [random.gauss(0, 1) for _ in range(points_count)]\ny = [random.gauss(0, 1) for _ in range(points_count)]\n\nplt.figure(figsize=(10, 7))\nscatter_plot = plt.plot(x, y, '.', markersize=14, color=color)\n\n\n\n\n\n\n\n\n\n\n\nZheng, Zibin, Shaoan Xie, Hong-Ning Dai, Xiangping Chen, and Huaimin Wang. 2018. “Blockchain Challenges and Opportunities: A Survey.” International Journal of Web and Grid Services 14 (4): 352–75."
+    "text": "Code\n## Fourth\n\nfrom matplotlib import pyplot as plt\nimport random\n\npoints_count = 10\ncolor = \"blue\"\nx = [random.gauss(0, 1) for _ in range(points_count)]\ny = [random.gauss(0, 1) for _ in range(points_count)]\n\nplt.figure(figsize=(10, 7))\nscatter_plot = plt.plot(x, y, '.', markersize=14, color=color)\n\n\n\n\n\n\n\n\n\nZheng, Zibin, Shaoan Xie, Hong-Ning Dai, Xiangping Chen, and Huaimin Wang. 2018. “Blockchain Challenges and Opportunities: A Survey.” International Journal of Web and Grid Services 14 (4): 352–75."
   }
 ]
